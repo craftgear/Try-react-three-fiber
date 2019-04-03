@@ -1,0 +1,33 @@
+{
+  "name": "try-react-three-fiber",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start" : "live-server --no-browser ./build > /dev/null | npm run webpack:dev:watch ",
+    "webpack:dev:watch": "webpack --mode development --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "dependencies": {
+    "@babel/cli": "^7.4.3",
+    "@babel/core": "^7.4.3",
+    "@babel/preset-env": "^7.4.3",
+    "@babel/preset-react": "^7.0.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-three-fiber": "^2.0.0",
+    "three": "^0.103.0"
+  },
+  "devDependencies": {
+    "babel-loader": "^8.0.5",
+    "clean-webpack-plugin": "^2.0.1",
+    "eslint": "^5.16.0",
+    "html-webpack-plugin": "^3.2.0",
+    "i": "^0.3.6",
+    "live-server": "^1.2.1",
+    "prettier": "^1.16.4",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.3.0"
+  }
+}
